@@ -13,5 +13,7 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off"
   },
 };

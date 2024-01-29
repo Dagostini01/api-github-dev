@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container } from "./styles";
 
-export default function Main() {
+const MainPage = () => {
   return (
     <Container>
       <img
@@ -15,3 +15,5 @@ export default function Main() {
     </Container>
   );
 }
+
+export default MainPage;
