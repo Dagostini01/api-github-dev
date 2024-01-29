@@ -1,19 +1,13 @@
 import React from "react";
+import { Container, Logo } from "./styles";
+import githublogo from "../../assets/images/github-logo.svg";
 
-import { Container } from "./styles";
+const MainPage = () => (
 
-const MainPage = () => {
-  return (
     <Container>
-      <img
-        src="https://devsamurai-materials.s3.amazonaws.com/templates/avatar-gradient-dark.svg"
-        height="256"
-        alt="Dev Samurai"
-      />
-      <h1>Fala Samurai!</h1>
-      <p>Esse é o template typescript básico da Dev Samurai para React.</p>
+      <Logo src={githublogo} alt="API Github"/>
     </Container>
-  );
-}
+
+)
 
 export default MainPage;
